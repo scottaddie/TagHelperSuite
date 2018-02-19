@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27413.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagHelperSuite", "TagHelperSuite\TagHelperSuite.csproj", "{AD3EDF1C-DA41-4588-8A7C-505E85000414}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TagHelperSuite", "TagHelperSuite\TagHelperSuite.csproj", "{AD3EDF1C-DA41-4588-8A7C-505E85000414}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagHelperSuite.Tests", "..\TagHelperSuite.Tests\TagHelperSuite.Tests.csproj", "{878D74F1-DE61-435E-B78B-3DDBD84213BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TagHelperSuite.Sample", "TagHelperSuite.Sample\TagHelperSuite.Sample.csproj", "{0739A280-7CD4-473D-9070-5ED19CF24453}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagHelperSuite.Sample", "TagHelperSuite.Sample\TagHelperSuite.Sample.csproj", "{0739A280-7CD4-473D-9070-5ED19CF24453}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TagHelperSuite.Tests", "TagHelperSuite.Tests\TagHelperSuite.Tests.csproj", "{1F92A833-3F94-4BA7-A2B1-3BD7299D8FBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{AD3EDF1C-DA41-4588-8A7C-505E85000414}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD3EDF1C-DA41-4588-8A7C-505E85000414}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD3EDF1C-DA41-4588-8A7C-505E85000414}.Release|Any CPU.Build.0 = Release|Any CPU
-		{878D74F1-DE61-435E-B78B-3DDBD84213BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{878D74F1-DE61-435E-B78B-3DDBD84213BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{878D74F1-DE61-435E-B78B-3DDBD84213BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{878D74F1-DE61-435E-B78B-3DDBD84213BE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0739A280-7CD4-473D-9070-5ED19CF24453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0739A280-7CD4-473D-9070-5ED19CF24453}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0739A280-7CD4-473D-9070-5ED19CF24453}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0739A280-7CD4-473D-9070-5ED19CF24453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F92A833-3F94-4BA7-A2B1-3BD7299D8FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F92A833-3F94-4BA7-A2B1-3BD7299D8FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F92A833-3F94-4BA7-A2B1-3BD7299D8FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F92A833-3F94-4BA7-A2B1-3BD7299D8FBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
