@@ -6,12 +6,10 @@ namespace TagHelperSuite.Sample.Pages
     {
         public void OnGet()
         {
-
         }
 
         public void OnPost()
         {
-            var test = "";
         }
     }
 }
