@@ -41,4 +41,8 @@ This collection of Tag Helpers will evolve and expand over time. For now, it inc
 	```cshtml
 	@addTagHelper *, TagHelperSuite
 	```
+
+## Acknowledgements
+
+Credit goes to [Isaac Levin](https://twitter.com/isaac2004) for the idea that lead to the creation of the `<link-button>` Tag Helper.
 	
