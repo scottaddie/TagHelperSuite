@@ -1,29 +1,24 @@
-﻿using Microsoft.AspNetCore.Razor.TagHelpers;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using TagHelperSuite.Tests.Infrastructure;
 using Xunit;
 
 namespace TagHelperSuite.Tests
 {
-    public class LinkButtonTagHelperTests
+    public class LinkButtonTagHelperTests : IClassFixture<TagHelperFixture>
     {
+        private readonly TagHelperFixture _fixture;
+        private const string ROOT_HTML_ELEMENT_TAG = "a";
+
+        public LinkButtonTagHelperTests(TagHelperFixture fixture)
+        {
+            _fixture = fixture;
+        }
+
         [Fact]
         public void ProcessGeneratesExpectedRootElement()
         {
             // ==== Arrange ====
-            const string ROOT_HTML_ELEMENT_TAG = "a";
-
-            var context = new TagHelperContext(
-                new TagHelperAttributeList(),
-                new Dictionary<object, object>(),
-                Guid.NewGuid().ToString("N"));
-
-            var output = new TagHelperOutput(
-                ROOT_HTML_ELEMENT_TAG,
-                new TagHelperAttributeList(),
-                (cache, encoder) => Task.FromResult<TagHelperContent>(new DefaultTagHelperContent()));
-
+            var context = _fixture.CreateContext();
+            var output = _fixture.CreateOutput(ROOT_HTML_ELEMENT_TAG);
             var tagHelper = new LinkButtonTagHelper();
 
             // ==== Act ====
