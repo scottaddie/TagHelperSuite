@@ -12,6 +12,11 @@ This collection of Tag Helpers will evolve and expand over time. For now, it inc
 	dotnet add package TagHelperSuite
 	```
 
+1. Restore NuGet package:
+	```console
+	dotnet restore
+	```
+
 1. Register the Tag Helpers in *_ViewImports.cshtml*:
 	```cshtml
 	@addTagHelper *, TagHelperSuite
