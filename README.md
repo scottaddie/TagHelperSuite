@@ -23,8 +23,8 @@ This collection of Tag Helpers will evolve and expand over time. For now, it inc
 	```
 
 1. Use the Tag Helper inside of a `<form>` tag in Razor Pages or MVC apps. For example, here's a sample from a Razor Pages app:
-	```html
+	```cshtml
 	<form asp-page-handler="Post">
-		<link-button>Test Link</link-button>
+	    <link-button>Test Link</link-button>
 	</form>
 	```
