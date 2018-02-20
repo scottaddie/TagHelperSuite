@@ -3,9 +3,17 @@
 ## Overview
 
 This collection of Tag Helpers will evolve and expand over time. For now, it includes the following:
+
 1. `<link-button>` - Produces an anchor element which posts the form in which it's placed. Brings ASP.NET 4.x Web Forms LinkButton control behavior to ASP.NET Core MVC and Razor Pages.
 
-## Installation & Usage
+	For example, here's a sample from a Razor Pages app:
+	```html
+	<form asp-page-handler="Post">
+	    <link-button>Test Link</link-button>
+	</form>
+	```
+
+## Installation
 
 1. Add a reference to the NuGet package:
 	```console
@@ -21,10 +29,4 @@ This collection of Tag Helpers will evolve and expand over time. For now, it inc
 	```cshtml
 	@addTagHelper *, TagHelperSuite
 	```
-
-1. Use the Tag Helper inside of a `<form>` tag in Razor Pages or MVC apps. For example, here's a sample from a Razor Pages app:
-	```html
-	<form asp-page-handler="Post">
-	    <link-button>Test Link</link-button>
-	</form>
-	```
+	
