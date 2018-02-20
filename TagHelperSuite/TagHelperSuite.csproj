@@ -1,6 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Description>A collection of ASP.NET Core Tag Helpers.</Description>
+    <Authors>Scott Addie</Authors>
+    <Version>0.1.0-$(VersionSuffix)</Version>
+    <Version Condition="$(VersionSuffix) == ''">0.1.0</Version>
+    <Version Condition="$(VersionSuffix) != ''">0.1.0-$(VersionSuffix)</Version>
+    <Copyright>Copyright © Scott Addie</Copyright>
+    <PackageLicenseUrl>https://github.com/ScottAddie/TagHelperSuite/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/ScottAddie/TagHelperSuite</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ScottAddie/TagHelperSuite</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>aspnetcore, taghelpers, razor, cshtml</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 

@@ -10,11 +10,12 @@ namespace TagHelperSuite
     /// Relies on the injection of a hidden form field to locate the parent form to be submitted
     /// </remarks>
     /// <example>
-    ///     <code>
-    ///         <form asp-page-handler="Post">
-    ///             <link-button>Link Text</link-button>
-    ///         </form>
-    ///     </code>
+    /// This sample shows usage with Razor Pages.
+    /// <code>
+    /// &lt;form asp-page-handler="Post"&gt;
+    ///     &lt;link-button&gt;Link Text&lt;/link-button&gt;
+    /// &lt;/form&gt;
+    /// </code>
     /// </example>
     [HtmlTargetElement("link-button")]
     public class LinkButtonTagHelper : TagHelper
