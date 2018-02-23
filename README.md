@@ -27,7 +27,7 @@ This collection of Tag Helpers will evolve and expand over time. For now, it inc
 
 ## Installation
 
-1. Add a reference to the NuGet package:
+1. Add a reference to the [NuGet package](https://www.nuget.org/packages/TagHelperSuite/):
 	```console
 	dotnet add package TagHelperSuite
 	```
